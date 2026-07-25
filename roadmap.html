@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Senior Backend Engineer Roadmap (2 years)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root{
+    --bg:#f8fafc;
+    --card:#fff;
+    --primary:#0d6efd;
+    --primary-dark:#0a5bb8;
+    --text:#212529;
+    --muted:#6c757d;
+    --border:#e2e6ea;
+    --radius:8px;
+    --shadow:0 2px 6px rgba(0,0,0,.08);
+    --font-sans:'Segoe UI',Arial,sans-serif;
+  }
+  body{
+    margin:0;
+    font-family:var(--font-sans);
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.6;
+  }
+  .container{max-width:960px;margin:auto;padding:1rem;}
+  header{background:var(--primary);color:#fff;padding:1rem;margin-bottom:1rem;}
+  h1,h2{margin:.5rem 0;}
+  a{color:var(--primary);text-decoration:none;}
+  a:hover{color:var(--primary-dark);}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
+        box-shadow:var(--shadow);padding:1rem;margin-bottom:1rem;}
+  .flex{display:flex;gap:1rem;align-items:center;}
+  .btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);
+        padding:.5rem 1rem;cursor:pointer;}
+  .btn:hover{background:var(--primary-dark);}
+  details{margin-top:.5rem;}
+  summary{cursor:pointer;font-weight:600;outline:none;}
+  summary::-webkit-details-marker{display:none;}
+  summary::after{
+    content:"▾";
+    float:right;
+    transition:transform .2s;
+  }
+  details[open] summary::after{transform:rotate(180deg);}
+  ul{margin:0.5rem 0 0.5rem 1.5rem;}
+  li{margin-bottom:.3rem;}
+  .small{font-size:0.9rem;color:var(--muted);}
+  .highlight{background:#fff3cd;padding:.2rem .4rem;border-radius:4px;}
+  #toggleAll{margin-bottom:.5rem;}
+  pre{background:#f1f3f5;padding:.5rem;border-radius:4px;overflow-x:auto;}
+  code{background:#f1f3f5;padding:.2rem .4rem;border-radius:3px;}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+  <h1>Senior Backend Engineer Roadmap (2 Years)</h1>
+</header>
+
+<!-- ==== QUICK CHECKLIST ==== -->
+<div class="card">
+  <strong>2‑Year Checklist</strong>
+  <ol>
+    <li>Create a GitHub repo called <code>senior-backend-prep</code>.</li>
+    <li>Copy‑paste the checklist below into <code>README.md</code>.</li>
+    <li><strong>Day 1</strong> – Solve one easy LeetCode problem and push it.</li>
+    <li><strong>Day 7</strong> – Publish the first design‑doc PDF on LinkedIn ‘Featured’.</li>
+    <li><strong>Month 2</strong> – Push a Dockerised API (with CI badge) to GitHub.</li>
+    <li><strong>Month 6</strong> – Publish a design‑doc PDF (e.g., “Notification Service”).</li>
+    <li><strong>Month 12</strong> – Deploy a full‑stack demo (API + worker) with CI/CD.</li>
+    <li>Every Sunday: update the tracker and review salary data.</li>
+  </ol>
+</div>
+
+<!-- ==== QUICK TOGGLE BUTTON ==== -->
+<div class="flex">
+  <button class="btn" id="toggleAll">Toggle All Sections</button>
+</div>
+
+<!-- ==== TIMELINE (QUARTERLY) ==== -->
+<section id="timeline" class="card">
+  <h2>Quarterly Roadmap</h2>
+  <details>
+    <summary>Q1 – Foundations (Months 1‑3)</summary>
+    <ul class="small">
+      <li>Linux CLI, Git basics, file permissions.</li>
+      <li>LeetCode Easy/Medium – 30‑question “Pattern” list.</li>
+      <li>Intro to AWS Free Tier (EC2, S3, IAM).</li>
+      <li><strong>Deliverable:</strong> Small CLI tool (e.g., URL‑shortener‑cli).</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>Q2 – Containers & CI/CD (Months 4‑6)</summary>
+    <ul class="small">
+      <li>Dockerfile authoring, multi‑stage builds.</li>
+      <li>Docker‑Compose for multi‑service apps.</li>
+      <li>GitHub Actions workflow (build → test → push image).</li>
+      <li><strong>Deliverable:</strong> Dockerised API + CI badge.</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>Q3 – System Design & Scalability (Months 7‑9)</summary>
+    <ul class="small">
+      <li>CAP theorem, eventual consistency, sharding.</li>
+      <li>Design‑Doc writing (2‑page PDF).</li>
+      <li>AWS services: ELB, S3, DynamoDB, RDS, SQS/SNS.</li>
+      <li><strong>Deliverable:</strong> Design‑Doc for a “real‑time notification service”.</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>Q4 – Micro‑services & Observability (Months 10‑12)</summary>
+    <ul class="small">
+      <li>Message queues (SQS/RabbitMQ).</li>
+      <li>Sagas, idempotency, distributed transactions.</li>
+      <li>Prometheus + Grafana for metrics.</li>
+      <li><strong>Deliverable:</strong> Full‑stack demo (API + worker) deployed to ECS/Fargate.</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>Year 2 – Advanced Topics & Mastery (Months 13‑24)</summary>
+    <ul class="small">
+      <li>Kubernetes: deployments, services, ingress, Helm.</li>
+      <li>Service mesh: Istio or Linkerd for traffic management.</li>
+      <li>Advanced caching: Redis cluster, CDN strategies.</li>
+      <li>Security: OAuth2, JWT, API gateways, zero-trust.</li>
+      <li>Database optimization: query tuning, connection pooling.</li>
+      <li>Infrastructure as Code: Terraform or CloudFormation.</li>
+      <li>Event-driven architecture: Kafka, event sourcing, CQRS.</li>
+      <li><strong>Deliverable:</strong> Production-ready microservices architecture with full observability.</li>
+    </ul>
+  </details>
+</section>
+
+<!-- ==== RESOURCES ==== -->
+<section id="resources" class="card">
+  <h2>Key Free Resources (2024‑2026)</h2>
+  <ul>
+    <li><a href="https://github.com/checkcheckzz/system-design-interview" target="_blank">System Design Interview – GitHub</a> (30+ hot questions)</li>
+    <li><a href="https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1491903063" target="_blank">Designing Data‑Intensive Applications</a> (free preview)</li>
+    <li><a href="https://leetcode.com/problemset/all/" target="_blank">LeetCode</a> – focus on arrays, strings, hash‑maps, trees.</li>
+    <li><a href="https://aws.amazon.com/free/" target="_blank">AWS Free Tier</a> – EC2, S3, RDS, ECS.</li>
+    <li><a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/" target="_blank">Kubernetes Basics</a> (official tutorial).</li>
+    <li><a href="https://k6.io/" target="_blank">k6</a> – load‑testing tool.</li>
+    <li><a href="https://aws.amazon.com/aws-cost-calculator/" target="_blank">AWS Cost Calculator</a> – TCO & cost‑optimisation.</li>
+    <li><a href="https://aws.amazon.com/well-architected/" target="_blank">AWS Well‑Architected Framework</a> – cost‑optimisation pillar.</li>
+    <li><a href="https://leetcode.com/problemset/all/?difficulty=MEDIUM" target="_blank">LeetCode Medium‑Hard</a> – actual interview difficulty.</li>
+    <li><a href="https://github.com/donnemartin/system-design-primer" target="_blank">System Design Primer</a> – comprehensive guide.</li>
+    <li><a href="https://github.com/raywenderlich/swift-algorithm-club" target="_blank">Algorithm Club</a> – algorithm patterns.</li>
+  </ul>
+</section>
+
+<!-- ==== WEEKLY CADENCE ==== -->
+<section id="schedule" class="card">
+  <h2>Weekly Study Cadence (≈ 10 hrs)</h2>
+  <ol class="small">
+    <li><strong>Mon (45 min)</strong> – Algorithm drill (LeetCode Medium).</li>
+    <li><strong>Tue (45 min)</strong> – Read a chapter/article (e.g., DDIA Ch 1‑5).</li>
+    <li><strong>Tue‑Wed (1 hr)</strong> – Hands‑on coding on the Dockerised service.</li>
+    <li><strong>Thu (45 min)</strong> – System‑design case study – write a 300‑word answer.</li>
+    <li><strong>Thu‑Fri (30 min)</strong> – Publish a short LinkedIn technical post.</li>
+    <li><strong>Sat (2‑3 hrs)</strong> – Project day (add logging, CI step, cost‑analysis).</li>
+    <li><strong>Sun (15 min)</strong> – Weekly reflection & tracker update.</li>
+  </ol>
+</section>
+
+<!-- ==== CHECKLIST ==== -->
+<section id="tracker" class="card">
+  <h2>Progress Tracker (copy‑paste into Notion/Google Sheet)</h2>
+  <pre class="small">Week | Goal | Deliverable | Completed?
+-----|------|-------------|------------
+1    | Finish LeetCode patterns | 30 problems solved | ✔
+2    | Build Dockerfile + CI workflow | Working pipeline | ✔
+3    | Write first design doc | PDF uploaded | ✖
+4    | Deploy to AWS | Service running on EC2 | ✔
+5    | Implement caching | Redis integration | ✖
+6    | Add monitoring | Prometheus/Grafana setup | ✖
+7    | Database optimization | Query performance improved | ✖
+8    | Security implementation | OAuth2/JWT working | ✖
+9    | Container orchestration | Kubernetes deployment | ✖
+10   | CI/CD pipeline | Full automation | ✖</pre>
+</section>
+
+</div>
+
+<script>
+  // Toggle every <details> element open/closed with one click
+  document.getElementById('toggleAll').addEventListener('click', function(){
+    document.querySelectorAll('details').forEach(d => {
+      if (d.open) d.removeAttribute('open');
+      else d.setAttribute('open','');
+    });
+  });
+</script>
+</body>
+</html>
