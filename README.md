@@ -1,7 +1,7 @@
 ### This is where my senior roadmap exists
 I will be following this roadmap to become senior software engineer and I am going to update here all my jounrey in it.
 
-![LeetCode Solved](https://img.shields.io/badge/Solved-11-brightgreen)
+![LeetCode Solved](https://img.shields.io/badge/Solved-14-brightgreen)
 ## Progress Tracker
 # LeetCode Progress Tracker
 
