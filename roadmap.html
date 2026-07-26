@@ -2,76 +2,71 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Senior Backend Engineer Roadmap (2 years)</title>
+<title>SDE1/SDE2 Product Company Roadmap (2 Years)</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-  :root{
-    --bg:#f8fafc;
-    --card:#fff;
-    --primary:#0d6efd;
-    --primary-dark:#0a5bb8;
-    --text:#212529;
-    --muted:#6c757d;
-    --border:#e2e6ea;
-    --radius:8px;
-    --shadow:0 2px 6px rgba(0,0,0,.08);
-    --font-sans:'Segoe UI',Arial,sans-serif;
-  }
-  body{
-    margin:0;
-    font-family:var(--font-sans);
-    background:var(--bg);
-    color:var(--text);
-    line-height:1.6;
-  }
-  .container{max-width:960px;margin:auto;padding:1rem;}
-  header{background:var(--primary);color:#fff;padding:1rem;margin-bottom:1rem;}
-  h1,h2{margin:.5rem 0;}
-  a{color:var(--primary);text-decoration:none;}
-  a:hover{color:var(--primary-dark);}
-  .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
-        box-shadow:var(--shadow);padding:1rem;margin-bottom:1rem;}
-  .flex{display:flex;gap:1rem;align-items:center;}
-  .btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);
-        padding:.5rem 1rem;cursor:pointer;}
-  .btn:hover{background:var(--primary-dark);}
-  details{margin-top:.5rem;}
-  summary{cursor:pointer;font-weight:600;outline:none;}
-  summary::-webkit-details-marker{display:none;}
-  summary::after{
-    content:"▾";
-    float:right;
-    transition:transform .2s;
-  }
-  details[open] summary::after{transform:rotate(180deg);}
-  ul{margin:0.5rem 0 0.5rem 1.5rem;}
-  li{margin-bottom:.3rem;}
-  .small{font-size:0.9rem;color:var(--muted);}
-  .highlight{background:#fff3cd;padding:.2rem .4rem;border-radius:4px;}
-  #toggleAll{margin-bottom:.5rem;}
-  pre{background:#f1f3f5;padding:.5rem;border-radius:4px;overflow-x:auto;}
-  code{background:#f1f3f5;padding:.2rem .4rem;border-radius:3px;}
+:root{
+  --bg:#f8fafc;
+  --card:#fff;
+  --primary:#0d6efd;
+  --primary-dark:#0a5bb8;
+  --text:#212529;
+  --muted:#6c757d;
+  --border:#e2e6ea;
+  --radius:8px;
+  --shadow:0 2px 6px rgba(0,0,0,.08);
+  --font-sans:'Segoe UI',Arial,sans-serif;
+}
+body{
+  margin:0;
+  font-family:var(--font-sans);
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.6;
+}
+.container{max-width:960px;margin:auto;padding:1rem;}
+header{background:var(--primary);color:#fff;padding:1rem;margin-bottom:1rem;}
+h1,h2{margin:.5rem 0;}
+a{color:var(--primary);text-decoration:none;}
+a:hover{color:var(--primary-dark);}
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
+  box-shadow:var(--shadow);padding:1rem;margin-bottom:1rem;}
+.flex{display:flex;gap:1rem;align-items:center;}
+.btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);
+  padding:.5rem 1rem;cursor:pointer;}
+.btn:hover{background:var(--primary-dark);}
+details{margin-top:.5rem;}
+summary{cursor:pointer;font-weight:600;outline:none;}
+summary::-webkit-details-marker{display:none;}
+summary::after{
+  content:"▾";
+  float:right;
+  transition:transform .2s;
+}
+details[open] summary::after{transform:rotate(180deg);}
+ul{margin:0.5rem 0 0.5rem 1.5rem;}
+li{margin-bottom:.3rem;}
+.small{font-size:0.9rem;color:var(--muted);}
+.highlight{background:#fff3cd;padding:.2rem .4rem;border-radius:4px;}
+#toggleAll{margin-bottom:.5rem;}
+pre{background:#f1f3f5;padding:.5rem;border-radius:4px;overflow-x:auto;}
+code{background:#f1f3f5;padding:.2rem .4rem;border-radius:3px;}
+.tag{display:inline-block;background:#e7f1ff;color:var(--primary-dark);font-size:.75rem;
+  padding:.1rem .5rem;border-radius:12px;margin-left:.4rem;}
 </style>
 </head>
 <body>
 <div class="container">
 <header>
-  <h1>Senior Backend Engineer Roadmap (2 Years)</h1>
+  <h1>SDE1/SDE2 Product Company Roadmap</h1>
+  <p class="small" style="color:#e7f1ff;margin-top:.3rem;">Target: March 2028 &middot; ~4 YOE by then &middot; Realistic level: SDE2</p>
 </header>
 
-<!-- ==== QUICK CHECKLIST ==== -->
+<!-- ==== TARGET COMPANIES ==== -->
 <div class="card">
-  <strong>2‑Year Checklist</strong>
-  <ol>
-    <li>Create a GitHub repo called <code>senior-backend-prep</code>.</li>
-    <li>Copy‑paste the checklist below into <code>README.md</code>.</li>
-    <li><strong>Day 1</strong> – Solve one easy LeetCode problem and push it.</li>
-    <li><strong>Day 7</strong> – Publish the first design‑doc PDF on LinkedIn ‘Featured’.</li>
-    <li><strong>Month 2</strong> – Push a Dockerised API (with CI badge) to GitHub.</li>
-    <li><strong>Month 6</strong> – Publish a design‑doc PDF (e.g., “Notification Service”).</li>
-    <li><strong>Month 12</strong> – Deploy a full‑stack demo (API + worker) with CI/CD.</li>
-    <li>Every Sunday: update the tracker and review salary data.</li>
-  </ol>
+  <strong>Target Companies</strong>
+  <p class="small">Primary: Razorpay, Swiggy, Zomato, Flipkart, Meesho, CRED, Postman, Freshworks, Zerodha, Zepto, PhonePe, BrowserStack, Groww</p>
+  <p class="small">Stretch: Google, Amazon, Microsoft (India offices)</p>
 </div>
 
 <!-- ==== QUICK TOGGLE BUTTON ==== -->
@@ -79,123 +74,113 @@
   <button class="btn" id="toggleAll">Toggle All Sections</button>
 </div>
 
-<!-- ==== TIMELINE (QUARTERLY) ==== -->
+<!-- ==== TIMELINE (PHASES) ==== -->
 <section id="timeline" class="card">
-  <h2>Quarterly Roadmap</h2>
-  <details>
-    <summary>Q1 – Foundations (Months 1‑3)</summary>
-    <ul class="small">
-      <li>Linux CLI, Git basics, file permissions.</li>
-      <li>LeetCode Easy/Medium – 30‑question “Pattern” list.</li>
-      <li>Intro to AWS Free Tier (EC2, S3, IAM).</li>
-      <li><strong>Deliverable:</strong> Small CLI tool (e.g., URL‑shortener‑cli).</li>
-    </ul>
-  </details>
+<h2>Phased Roadmap</h2>
 
-  <details>
-    <summary>Q2 – Containers & CI/CD (Months 4‑6)</summary>
-    <ul class="small">
-      <li>Dockerfile authoring, multi‑stage builds.</li>
-      <li>Docker‑Compose for multi‑service apps.</li>
-      <li>GitHub Actions workflow (build → test → push image).</li>
-      <li><strong>Deliverable:</strong> Dockerised API + CI badge.</li>
-    </ul>
-  </details>
+<details open>
+<summary>Phase 1 &ndash; Foundations (Now &ndash; Month 6, ~Dec 2026)</summary>
+<ul class="small">
+  <li>NeetCode 150 in JavaScript &mdash; Arrays/Hashing done, Two Pointers in progress <span class="tag">on track</span></li>
+  <li>TypeScript path: TS Handbook (done) &rarr; TypeScript Exercises &rarr; React TS Cheatsheet &rarr; Total TypeScript (Matt Pocock)</li>
+  <li>Convert butler app to TypeScript incrementally, file by file</li>
+  <li>System Design: Alex Xu Vol 1, 1&ndash;2 chapters/week, redraw diagrams from memory (background reading, not deep focus yet)</li>
+  <li>Docker basics: Dockerfile, docker-compose (once TS conversion is underway)</li>
+</ul>
+</details>
 
-  <details>
-    <summary>Q3 – System Design & Scalability (Months 7‑9)</summary>
-    <ul class="small">
-      <li>CAP theorem, eventual consistency, sharding.</li>
-      <li>Design‑Doc writing (2‑page PDF).</li>
-      <li>AWS services: ELB, S3, DynamoDB, RDS, SQS/SNS.</li>
-      <li><strong>Deliverable:</strong> Design‑Doc for a “real‑time notification service”.</li>
-    </ul>
-  </details>
+<details>
+<summary>Phase 2 &ndash; Depth + Project 1 (Month 7&ndash;12, ~mid 2027)</summary>
+<ul class="small">
+  <li>NeetCode: move past 150 into targeted medium/hard practice on weak patterns</li>
+  <li>Finish Alex Xu Vol 1 fully; design 3&ndash;4 systems from scratch on paper (URL shortener, rate limiter, chat app)</li>
+  <li><strong>Deliverable:</strong> Project 1 &mdash; full-stack (React + TS frontend, Node/Express or NestJS backend, real DB, Dockerized, deployed)</li>
+  <li>Start posting on X &mdash; weekly recap format, builds visibility ahead of application phase</li>
+</ul>
+</details>
 
-  <details>
-    <summary>Q4 – Micro‑services & Observability (Months 10‑12)</summary>
-    <ul class="small">
-      <li>Message queues (SQS/RabbitMQ).</li>
-      <li>Sagas, idempotency, distributed transactions.</li>
-      <li>Prometheus + Grafana for metrics.</li>
-      <li><strong>Deliverable:</strong> Full‑stack demo (API + worker) deployed to ECS/Fargate.</li>
-    </ul>
-  </details>
+<details>
+<summary>Phase 3 &ndash; Interview Readiness + Project 2 (Month 13&ndash;18, ~late 2027)</summary>
+<ul class="small">
+  <li>Machine coding practice &mdash; timed builds (60&ndash;90 min): parking lot, rate limiter, feed pagination</li>
+  <li><strong>Deliverable:</strong> Project 2 &mdash; something with system-design depth (e.g., notification service, small event-driven architecture)</li>
+  <li>Mock interviews (Pramp, peers, or paid mock services)</li>
+  <li>Identify referral contacts at target companies (LinkedIn, college seniors)</li>
+</ul>
+</details>
 
-  <details>
-    <summary>Year 2 – Advanced Topics & Mastery (Months 13‑24)</summary>
-    <ul class="small">
-      <li>Kubernetes: deployments, services, ingress, Helm.</li>
-      <li>Service mesh: Istio or Linkerd for traffic management.</li>
-      <li>Advanced caching: Redis cluster, CDN strategies.</li>
-      <li>Security: OAuth2, JWT, API gateways, zero-trust.</li>
-      <li>Database optimization: query tuning, connection pooling.</li>
-      <li>Infrastructure as Code: Terraform or CloudFormation.</li>
-      <li>Event-driven architecture: Kafka, event sourcing, CQRS.</li>
-      <li><strong>Deliverable:</strong> Production-ready microservices architecture with full observability.</li>
-    </ul>
-  </details>
+<details>
+<summary>Phase 4 &ndash; Active Applications (Month 19&ndash;24, through March 2028)</summary>
+<ul class="small">
+  <li>Apply broadly across primary target list + stretch companies</li>
+  <li>Company-specific behavioral prep (e.g., Amazon Leadership Principles) once interviews are scheduled</li>
+  <li>Negotiate from an SDE2 position given ~4 YOE by application time</li>
+</ul>
+</details>
+
+<details>
+<summary>Later (Post-2028) &ndash; Senior-level depth, learned on the job</summary>
+<ul class="small">
+  <li>AWS/cloud infra depth, Kubernetes, Terraform, Kafka, service mesh &mdash; deliberately deferred</li>
+  <li>DDIA &mdash; deeper reinforcement once fundamentals aren&rsquo;t new anymore</li>
+  <li>These are senior/staff-level skills best learned on real production systems, not pre-studied without context</li>
+</ul>
+</details>
+
 </section>
 
 <!-- ==== RESOURCES ==== -->
 <section id="resources" class="card">
-  <h2>Key Free Resources (2024‑2026)</h2>
-  <ul>
-    <li><a href="https://github.com/checkcheckzz/system-design-interview" target="_blank">System Design Interview – GitHub</a> (30+ hot questions)</li>
-    <li><a href="https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1491903063" target="_blank">Designing Data‑Intensive Applications</a> (free preview)</li>
-    <li><a href="https://leetcode.com/problemset/all/" target="_blank">LeetCode</a> – focus on arrays, strings, hash‑maps, trees.</li>
-    <li><a href="https://aws.amazon.com/free/" target="_blank">AWS Free Tier</a> – EC2, S3, RDS, ECS.</li>
-    <li><a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/" target="_blank">Kubernetes Basics</a> (official tutorial).</li>
-    <li><a href="https://k6.io/" target="_blank">k6</a> – load‑testing tool.</li>
-    <li><a href="https://aws.amazon.com/aws-cost-calculator/" target="_blank">AWS Cost Calculator</a> – TCO & cost‑optimisation.</li>
-    <li><a href="https://aws.amazon.com/well-architected/" target="_blank">AWS Well‑Architected Framework</a> – cost‑optimisation pillar.</li>
-    <li><a href="https://leetcode.com/problemset/all/?difficulty=MEDIUM" target="_blank">LeetCode Medium‑Hard</a> – actual interview difficulty.</li>
-    <li><a href="https://github.com/donnemartin/system-design-primer" target="_blank">System Design Primer</a> – comprehensive guide.</li>
-    <li><a href="https://github.com/raywenderlich/swift-algorithm-club" target="_blank">Algorithm Club</a> – algorithm patterns.</li>
-  </ul>
+<h2>Core Resources</h2>
+<ul>
+  <li><a href="https://neetcode.io/practice" target="_blank">NeetCode 150</a> &mdash; primary DSA practice, solved in JavaScript</li>
+  <li><a href="https://www.typescriptlang.org/docs/handbook/intro.html" target="_blank">TypeScript Handbook</a> &mdash; done</li>
+  <li><a href="https://typescript-exercises.github.io/" target="_blank">TypeScript Exercises</a> &mdash; next up</li>
+  <li><a href="https://react-typescript-cheatsheet.netlify.app/" target="_blank">React TypeScript Cheatsheet</a></li>
+  <li>Total TypeScript &ndash; Matt Pocock (advanced patterns)</li>
+  <li>System Design Interview &ndash; Alex Xu, Vol 1 (primary), Vol 2 later</li>
+  <li>Gaurav Sen&rsquo;s System Design YouTube playlist &mdash; supplement for topics that don&rsquo;t click from the book</li>
+</ul>
 </section>
 
 <!-- ==== WEEKLY CADENCE ==== -->
 <section id="schedule" class="card">
-  <h2>Weekly Study Cadence (≈ 10 hrs)</h2>
-  <ol class="small">
-    <li><strong>Mon (45 min)</strong> – Algorithm drill (LeetCode Medium).</li>
-    <li><strong>Tue (45 min)</strong> – Read a chapter/article (e.g., DDIA Ch 1‑5).</li>
-    <li><strong>Tue‑Wed (1 hr)</strong> – Hands‑on coding on the Dockerised service.</li>
-    <li><strong>Thu (45 min)</strong> – System‑design case study – write a 300‑word answer.</li>
-    <li><strong>Thu‑Fri (30 min)</strong> – Publish a short LinkedIn technical post.</li>
-    <li><strong>Sat (2‑3 hrs)</strong> – Project day (add logging, CI step, cost‑analysis).</li>
-    <li><strong>Sun (15 min)</strong> – Weekly reflection & tracker update.</li>
-  </ol>
+<h2>Weekly Cadence</h2>
+<ol class="small">
+  <li><strong>Weekdays</strong> &ndash; At least 1 NeetCode problem after work</li>
+  <li><strong>Weekends</strong> &ndash; New problems + review of previously solved ones</li>
+  <li><strong>Ongoing</strong> &ndash; Butler app bug fixes/features via Claude Code (real debugging practice)</li>
+  <li><strong>1&ndash;2x/week</strong> &ndash; Alex Xu chapter, redraw diagrams from memory afterward</li>
+  <li><strong>Weekly (from Phase 2)</strong> &ndash; X recap post on DSA/TS/project progress</li>
+</ol>
 </section>
 
-<!-- ==== CHECKLIST ==== -->
+<!-- ==== TRACKER ==== -->
 <section id="tracker" class="card">
-  <h2>Progress Tracker (copy‑paste into Notion/Google Sheet)</h2>
-  <pre class="small">Week | Goal | Deliverable | Completed?
------|------|-------------|------------
-1    | Finish LeetCode patterns | 30 problems solved | ✔
-2    | Build Dockerfile + CI workflow | Working pipeline | ✔
-3    | Write first design doc | PDF uploaded | ✖
-4    | Deploy to AWS | Service running on EC2 | ✔
-5    | Implement caching | Redis integration | ✖
-6    | Add monitoring | Prometheus/Grafana setup | ✖
-7    | Database optimization | Query performance improved | ✖
-8    | Security implementation | OAuth2/JWT working | ✖
-9    | Container orchestration | Kubernetes deployment | ✖
-10   | CI/CD pipeline | Full automation | ✖</pre>
+<h2>Progress Tracker</h2>
+<p class="small">See README.md for the live LeetCode problem-by-problem tracker.</p>
+<pre class="small">Phase | Milestone                          | Status
+------|-------------------------------------|--------
+1     | NeetCode 150 complete              | In progress
+1     | TypeScript path complete            | In progress
+1     | Alex Xu Vol 1 complete              | Not started
+1     | Butler app fully in TS              | Not started
+2     | Project 1 shipped                   | Not started
+2     | Posting on X weekly                 | Not started
+3     | Project 2 shipped                   | Not started
+3     | Machine coding practice started     | Not started
+4     | Applications started                | Not started</pre>
 </section>
 
 </div>
 
 <script>
-  // Toggle every <details> element open/closed with one click
-  document.getElementById('toggleAll').addEventListener('click', function(){
-    document.querySelectorAll('details').forEach(d => {
-      if (d.open) d.removeAttribute('open');
-      else d.setAttribute('open','');
-    });
+document.getElementById('toggleAll').addEventListener('click', function(){
+  document.querySelectorAll('details').forEach(d => {
+    if (d.open) d.removeAttribute('open');
+    else d.setAttribute('open','');
   });
+});
 </script>
 </body>
 </html>
